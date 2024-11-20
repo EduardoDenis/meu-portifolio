@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+
+
+#header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.menu {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+a {
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    border: 10px black solid;
+    margin-right: 10px;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: red;
+}
+
+form {
+    background-color: #101833;
+    padding: 50px;
+    border-radius: 25px;
+    max-width: 400px;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+label {
+    color: cornflowerblue;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#content {
+    width: 920px;
+    margin: auto;
+    padding: 15px;
+
+}
+
+@media only screen and (max-width: 700px) {
+    #content {
+        width: 430px;
+    }
+}
+
+#competencias {
+    color: cornflowerblue;
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+}
+
+.titulo {
+    text-align: center;
+}
+
+.post {
+    text-align: justify;
+    background-color: #101833;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.titulo {
+    font-size: 35px;
+    color: #98A0B8;
+}
+
+#photo1 {
+    max-width: 250px;
+    max-height: 350px;
+    border-radius: 30%;
+    border: solid #98A0B8;
+    margin-left: 40px;
+}
+
+#photo2 {
+    width: 250px;
+    height: 200px;
+    border-radius: 30%;
+    border: solid #98A0B8;
+    margin-left: 40px;
+
+}
+
+#photo3 {
+    width: 250px;
+    height: 190px;
+    border-radius: 30%;
+    border: solid #98A0B8;
+    margin-left: 40px;
+}
+
+p {
+    color: cornflowerblue;
+    padding: 20px;
+}
+
+#megasena {
+    color: rgb(0, 206, 0);
+
+}
+
+#fitness-tracker {
+    color: rgb(0, 225, 255);
+}
+
+.rodape p {
+    position: relative;
+    text-align: center;
+    bottom: 0%;
+    width: 100%;
+    color: black;
+}
