@@ -44,6 +44,7 @@ const form = document.querySelector("#formulario");
     // funcao que valida email
     function isEmailValid(email) {
 
+        // validacao atraves dos caracteres inseridos no imput, utilizando o regex
         const emailRegex = new RegExp(
             /^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]{2,}$/
         );
